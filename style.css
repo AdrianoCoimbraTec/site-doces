@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+header {
+    background-color: #ff9aa2;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+}
+
+header p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.produtos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produtos h2 {
+    margin-bottom: 30px;
+    color: #ff6f61;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: #ff6f61;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #333;
+}
+
+.contato {
+    background-color: #ffe6e6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 15px;
+    color: #ff6f61;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #e95d50;
+}
+
+footer {
+    background-color: #ff9aa2;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
